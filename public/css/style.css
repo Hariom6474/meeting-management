@@ -1,0 +1,57 @@
+body {
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.schedule-date {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-right: 20px;
+}
+
+.form-fill {
+    max-width: 400px;
+    margin-right: 20px;
+}
+
+#user-form {
+    margin-top: 10px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#user-form h1 {
+    text-align: center;
+    color: #007bff;
+}
+
+#user-form div {
+    margin-bottom: 15px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.meeting-info {
+    flex: 1;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
